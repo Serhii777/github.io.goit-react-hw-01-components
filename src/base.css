@@ -1,0 +1,60 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: rgb(231, 236, 242);
+  margin: 0px;
+  padding: 0px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+#root {
+  padding-top: 86px;
+}
+
+@font-face {
+  font-family: "ProximaNova-ExtraBoldCondensed";
+  src: local("ProximaNova-ExtraBoldCondensed"),
+    url("https://nomail.com.ua/files/woff/0a5c8ca3cb02d06f6cdac25b1743e9cd.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: "ProximaNova-LightCondensed";
+  src: local("ProximaNova-LightCondensed"),
+    url("https://nomail.com.ua/files/woff/aee5e23445ebb8aaca3747470069d3a9.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: "ProximaNova-RegularCondensed";
+  src: local("ProximaNova-RegularCondensed"),
+    url("https://nomail.com.ua/files/woff/dc38e71c06219d82fe9ec4c3375e98af.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: "HelveticaNeueCyr-Light";
+  src: local("HelveticaNeueCyr-Light"),
+    url("https://nomail.com.ua/files/woff/2127aa6d0680b144a3bd8be9debeba09.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: "HelveticaNeueCyr-Bold";
+  src: local("HelveticaNeueCyr-Bold"),
+    url("https://nomail.com.ua/files/woff/7ac1c8f0b974a943aa67859c07f86bd2.woff")
+      format("woff");
+}
